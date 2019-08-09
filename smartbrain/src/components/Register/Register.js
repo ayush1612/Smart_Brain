@@ -25,7 +25,7 @@ class Regsiter extends React.Component{
 
      
   onSubmitSignIn = () => {
-    fetch('http://localhost:1111/register', {
+    fetch('https://facedetectsmartness.herokuapp.com/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
