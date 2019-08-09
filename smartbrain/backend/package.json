@@ -1,0 +1,33 @@
+{
+  "name": "web_dev_advance",
+  "version": "1.0.0",
+  "description": "After React+Redux notes...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush1612/Web_Dev_Advance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush1612/Web_Dev_Advance/issues"
+  },
+  "homepage": "https://github.com/ayush1612/Web_Dev_Advance#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.19.1",
+    "pg": "^7.12.0"
+  }
+}
