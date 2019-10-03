@@ -5,3 +5,5 @@ Smart_Brain is made using React.JS. It is a website where face detection is perf
 
 1. React.js
 2. Database : psotgreSql
+
+:smiley:
