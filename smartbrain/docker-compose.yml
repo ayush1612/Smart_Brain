@@ -1,0 +1,13 @@
+version: '3.6'
+
+services: 
+  smart-brain-api:
+    container_name: backend
+    # image: node:dubnium
+    build: ./
+    command: npm start
+    working_dir: /home/ayush/Documents/Smart_Brain/smartbrain
+    ports:
+      - "3000:3000"
+    volumes: 
+      - ./:/home/ayush/Documents/Smart_Brain/smartbrain
