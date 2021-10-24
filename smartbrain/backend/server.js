@@ -25,9 +25,7 @@ db.select('*').from('users').then(data =>{
 
 
 app.use(cors());
-// app.use(__dirname+'/public');
 
-// app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(bodyParser.json());
 
@@ -43,5 +41,5 @@ app.post("/imageurl",(req,res)=>{image.handleApiCall(req,res)})
 
 
 app.listen(process.env.PORT || 1111,()=>{
-    console.log(`Running on port:${process.env.PORT}`)
+    console.log(`Running on port: ${process.env.PORT}`)
 })
